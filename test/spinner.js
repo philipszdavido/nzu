@@ -13,15 +13,17 @@ const s = 10
 /** [===========] */
 let ins = null
 setInterval(() => {
-    process.stdout.clearLine(1)
+    process.stdout.write('*********')
     process.stdout.cursorTo(0)
+        //process.stdout.clearLine(1)
     if (ins != null) {
         clearInterval(ins)
     }
+
     /*for (var i = 0; i < s; i++) {
         process.stdout.write('=')
     }*/
-
+    process.stdout.write('[')
     ins = setInterval(() => {
         process.stdout.write('=')
     }, 300)
