@@ -1,10 +1,33 @@
 # nzu
-A chainable terminal coloring Nodejs module (nzu is the Igbo language translate of chalk)
+
+A chainable terminal coloring Node.js module (nzu is the Igbo language translate of chalk)
 
 # Technologies
-1. Nodejs
+
+1. [Node.js](https://nodejs.org)
+
+# Install
+
+NPM:
+```sh
+npm i nzu -S
+```
+
+Yarn:
+```sh
+yarn add nzu
+```
 
 # Usage
+
+```js
+const nzu = require('nzu')
+
+console.log(`${nzu.blue('nnamdi')}`)
+console.log(`${nzu.blue('messi').bold()}`)
+```
+
+# Colors
 
 * nzu.blue
 * nzu.red
