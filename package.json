@@ -1,6 +1,6 @@
 {
     "name": "nzu",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A chainable terminal coloring Node.js module (nzu is the Igbo language translate of chalk)",
     "main": "index.js",
     "scripts": {
