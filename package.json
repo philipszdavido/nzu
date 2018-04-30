@@ -1,8 +1,7 @@
 {
     "name": "nzu",
     "version": "0.0.1",
-    "description": "A chainable terminal coloring Node.js module (nzu is the Igbo language translate of chalk)
-",
+    "description": "A chainable terminal coloring Node.js module (nzu is the Igbo language translate of chalk)",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
